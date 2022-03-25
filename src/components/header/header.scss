@@ -1,0 +1,25 @@
+@import "../../styles/constants.scss";
+
+.header {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid $headerBorderColor;
+  background-color: $headerBkgColor;
+  color: $headerContentColor;
+  padding: 0.5rem 0;
+}
+
+.header-title {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.header-description {
+  font-size: 0.8rem;
+  letter-spacing: 0rem;
+}
+
+@media only screen and (max-width: 648px) {
+  .header-title {
+    font-size: 1.5rem;
+  }
+}
