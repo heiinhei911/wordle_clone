@@ -130,11 +130,23 @@ a {
 .game-tile {
   border: 1px solid #333334e6;
   margin: 0.2rem;
-  padding: 0.5rem;
   width: 4.8rem;
   height: 4.8rem;
   text-align: center;
   font-size: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-weight: 800;
 }
 
@@ -209,9 +221,22 @@ a {
     padding: 0.5rem 1rem;
   }
   .game-tile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 3.5rem;
     height: 3.5rem;
-    padding: 0.1rem 0.5rem;
+    padding: 0 0.5rem;
     font-size: 2.5rem;
   }
   .keyboard {
@@ -240,7 +265,6 @@ a {
     width: 3.5rem;
     height: 3.5rem;
     font-size: 2rem;
-    padding: 0.2rem;
   }
   .keyboard {
     padding-bottom: 0;
