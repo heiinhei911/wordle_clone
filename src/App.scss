@@ -15,8 +15,8 @@
 .App {
   background-color: $backgroundColor;
   color: $contentColor;
-  height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
+  min-height: 100vh;
+  min-height: calc(var(--vh, 1vh) * 100);
   min-width: 100vw;
   @include flexFour(column, center, center);
 }
@@ -131,10 +131,6 @@
 }
 
 @media only screen and (orientation: landscape) and (hover: none) {
-  .App {
-    height: 100vw;
-  }
-
   .game-tile {
     width: 3.5rem;
     height: 3.5rem;
