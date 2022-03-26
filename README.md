@@ -24,6 +24,7 @@ Your progress of the game will be automatically saved to the browser so you have
 
 ## Credits
 
-Special thanks to [NYTimes](https://www.nytimes.com/games/wordle/index.html) and the original creator of the game [Josh Wardle](https://en.wikipedia.org/wiki/Josh_Wardle).
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
+Special thanks to [NYTimes](https://www.nytimes.com/games/wordle/index.html) and the original creator of the game [Josh Wardle](https://en.wikipedia.org/wiki/Josh_Wardle).\
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 Recreated by Steve Sam
