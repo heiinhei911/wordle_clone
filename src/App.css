@@ -86,6 +86,7 @@ a {
   min-height: 100vh;
   min-height: calc(var(--vh, 1vh) * 100);
   min-width: 100vw;
+  max-width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -216,9 +217,12 @@ a {
 
 @media only screen and (max-width: 648px) {
   .game {
-    max-width: 100%;
+    max-width: 100vw;
     width: 100%;
     padding: 0.5rem 1rem;
+  }
+  .game-row {
+    max-width: 100vw;
   }
   .game-tile {
     display: -webkit-box;
