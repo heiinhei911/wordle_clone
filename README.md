@@ -5,9 +5,9 @@ Demo: [https://heiinhei911.github.io/wordle_clone](https://heiinhei911.github.io
 
 ## How to Play
 
-Once you are in the website, you will see a 5 by 6 grid and a on-screen keyboard.
+Once the app has loaded, you will see a 5 by 6 grid and a on-screen keyboard.
 
-To start playing, click any key on the keyboard to make a five-letter English word.\
+To start playing, type a five-letter English word using the on-screen keyboard. Each character that you type will show up in the grid.\
 Once you have a guess, click on the "ENTER" key on keyboard to check if your guess matches any character of the hidden part.
 
 If one of your character in your guess is part of the hidden word but is not in the correct position, the tile will turn yellow.\
