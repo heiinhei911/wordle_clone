@@ -255,6 +255,14 @@ a {
 }
 
 @media only screen and (max-width: 320px) {
+  .game {
+    max-width: 100vw;
+    width: 100%;
+    padding: 0.5rem 1rem;
+  }
+  .game-row {
+    max-width: 100vw;
+  }
   .game-tile {
     width: 1.5rem;
     height: 1.5rem;
@@ -264,6 +272,22 @@ a {
     max-height: 25px;
     font-size: 1rem;
     font-size: calc((100vh - (0.2rem * 10) - 28rem) / 5);
+  }
+  .keyboard {
+    width: 100%;
+    padding: 0.1rem 0.1rem;
+  }
+  .key {
+    width: 2rem;
+  }
+  .name {
+    padding: 0.1rem 0.1rem;
+    margin-bottom: 0.2rem;
+  }
+  .popup-window {
+    top: 0.5rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
   }
 }
 
