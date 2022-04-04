@@ -120,6 +120,7 @@ a {
   margin: auto 0;
   position: relative;
   max-width: 100%;
+  z-index: 1;
 }
 
 .game-row {
@@ -209,6 +210,7 @@ a {
   border-radius: 5px;
   -webkit-animation: fade 4s;
           animation: fade 4s;
+  z-index: 2;
 }
 
 .name {

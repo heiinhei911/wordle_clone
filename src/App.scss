@@ -28,6 +28,7 @@
   margin: auto 0;
   position: relative;
   max-width: 100%;
+  z-index: 1;
 }
 
 .game-row {
@@ -90,6 +91,7 @@
   padding: 0.5rem 1rem;
   border-radius: 5px;
   animation: fade 4s;
+  z-index: 2;
 }
 
 .name {

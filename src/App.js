@@ -42,7 +42,10 @@ function App() {
 
         window.localStorage.setItem("theWordStorage", JSON.stringify(word));
         setTheWord(word);
-      } else setTheWord(getTheWordStorage);
+      } else {
+        setTheWord(getTheWordStorage);
+        console.log(getTheWordStorage);
+      }
     }
 
     // Listen for any changes in screen height
@@ -401,7 +404,6 @@ function App() {
             <button
               key={nanoid()}
               className="key wide-key"
-              alt
               value="enter"
               onClick={() => !gameOver && updateGrid("enter")}
             >
