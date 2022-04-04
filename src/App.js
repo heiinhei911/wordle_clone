@@ -42,10 +42,7 @@ function App() {
 
         window.localStorage.setItem("theWordStorage", JSON.stringify(word));
         setTheWord(word);
-      } else {
-        setTheWord(getTheWordStorage);
-        console.log(getTheWordStorage);
-      }
+      } else setTheWord(getTheWordStorage);
     }
 
     // Listen for any changes in screen height
