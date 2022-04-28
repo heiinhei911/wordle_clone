@@ -1,0 +1,58 @@
+@import "../../styles/constants.scss";
+
+.keyboard {
+  min-height: 10vh;
+  background-color: $keyboardBkgColor;
+  padding: 0.2rem 0.1rem;
+  min-width: 100vw;
+}
+
+.key-row {
+  @include flexFour(row, center, center);
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.key {
+  background-color: $keyboardKeyBkgColor;
+  color: $keyboardKeysColor;
+  border: none;
+  border-radius: 5px;
+  width: 2.5rem;
+  height: 3rem;
+  margin: 0.2rem 0.2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.wide-key {
+  min-width: 3rem;
+  font-size: 0.8rem;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 648px) {
+  .keyboard {
+    width: 100%;
+    padding: 0.1rem 0.1rem;
+  }
+  .key {
+    width: 2rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .keyboard {
+    width: 100%;
+    padding: 0.1rem 0.1rem;
+  }
+  .key {
+    width: 2rem;
+  }
+}
+
+@media only screen and (orientation: landscape) and (hover: none) {
+  .keyboard {
+    padding-bottom: 0;
+  }
+}

@@ -1,4 +1,4 @@
-import "./finalwindow.css";
+import "./FinalWindow.css";
 
 export default function FinalWindow(props) {
   return (

@@ -1,6 +1,6 @@
 {
-  "name": "wordle",
-  "version": "0.1.0",
+  "name": "wordle-clone",
+  "version": "0.2.0",
   "private": false,
   "homepage": "https://heiinhei911.github.io/wordle_clone",
   "dependencies": {
@@ -11,6 +11,7 @@
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "react": "^17.0.2",
+    "react-div-100vh": "^0.7.0",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
     "web-vitals": "^2.1.4"
