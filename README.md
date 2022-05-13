@@ -1,5 +1,7 @@
 # Wordle Clone
 
+![Demo GIF](./src/assets/images/demo.gif)
+
 A clone of the popular game Wordle.\
 Demo: [https://heiinhei911.github.io/wordle_clone](https://heiinhei911.github.io/wordle_clone)
 
